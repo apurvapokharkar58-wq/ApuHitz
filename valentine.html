@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forever Us 💞</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', cursive;
+            text-align: center;
+            background: linear-gradient(135deg, #ffd6e0, #f8cdda, #fbc2eb);
+            color: #5a3d5c;
+            overflow-x: hidden;
+        }
+
+        /* Headings */
+        h1 {
+            margin-top: 40px;
+            font-size: 32px;
+            animation: glow 2s infinite alternate;
+        }
+
+        h2 {
+            margin-top: 20px;
+        }
+
+        /* Sections */
+        .section {
+            display: none;
+            margin-top: 30px;
+            padding: 20px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        #proposal {
+            display: block;
+        }
+
+        /* Buttons */
+        button {
+            padding: 12px 28px;
+            margin: 10px;
+            border: none;
+            border-radius: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            background: #ffffff;
+            color: #d63384;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            transition: 0.3s ease;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            background: #d63384;
+            color: white;
+        }
+
+        #noBtn {
+            position: absolute;
+        }
+
+        /* Cute Emojis */
+        .cute {
+            font-size: 70px;
+        }
+
+        .couple {
+            font-size: 40px;
+            margin-top: 10px;
+        }
+
+        /* Final Love Card */
+        .loveCard {
+            margin: 20px auto;
+            padding: 35px;
+            border-radius: 25px;
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            font-size: 20px;
+            line-height: 1.9;
+            max-width: 700px;
+            animation: glowMsg 2s infinite alternate;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Floating Hearts */
+        .heart {
+            position: fixed;
+            bottom: -10px;
+            font-size: 20px;
+            animation: floatUp 6s linear infinite;
+            opacity: 0.7;
+        }
+
+        /* Animations */
+        @keyframes floatUp {
+            0% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateY(-100vh);
+                opacity: 0;
+            }
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #fff;
+            }
+
+            to {
+                text-shadow: 0 0 30px #ff85a2;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes glowMsg {
+            from {
+                box-shadow: 0 0 15px #fff;
+            }
+
+            to {
+                box-shadow: 0 0 35px #ff99c8;
+            }
+        }
+
+        /* Responsive */
+        @media(max-width:768px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            button {
+                font-size: 14px;
+                padding: 10px 20px;
+            }
+
+            .loveCard {
+                font-size: 17px;
+                padding: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Hey My Handsome Heroooooo🐻🐰💞</h1>
+
+    <div id="proposal" class="section">
+        <h2>Will you be mine foreverrrr.......................? 🥺💍</h2>
+        <button onclick="startSurprise()">YESSSS 😍</button>
+        <button id="noBtn" onmouseover="moveNo()">NO 😝</button>
+    </div>
+
+    <div id="mainContent" class="section">
+        <h2>khrchhhhhh premmmmmm krtayyyyyyy naaa? 😜💗</h2>
+        <button onclick="showCute()">Laiii Prem Krtoyy 💜</button>
+        <button onclick="showCute()">Ofcourseeee 🥺💖</button>
+    </div>
+
+    <div id="cute" class="section">
+        <h2>Us Foreverrrr 🥺💞</h2>
+        <div class="cute">🐻💖🐰</div>
+        <div class="couple">🫂💞💋💑💕</div>
+        <p>lai lai laiiiiiiiii jast prem bala  🥰💗</p>
+        <button onclick="showFinal()">Final Surprise meassage ➡️</button>
+    </div>
+
+    <div id="final" class="section">
+        <h2 style="font-size:28px;">💖 FINAL SURPRISE 💖</h2>
+
+        <div class="loveCard">
+            🥺❤️ Tumhi majhya life madhle saglyat sundar surprise ahaht ❤️🥺 <br><br>
+
+            With you, everything feels soft, safe and magical. ✨
+            Tumhi fakta mazech aahat…
+            tumhi majha comfort zone, majha home, majha heartbeat ahhat 💓🏠 <br><br>
+
+            Ha apla pahila Valentine’s aahe,
+            pan mala he last nako…
+            mala pratyek year, pratyek day tumchysobat celebrate karaycha aahe. 🌹💞 <br><br>
+
+            I promise, mi tumchi rahil aayushybhar —
+            tumchi biggest supporter,
+            tumchi best friend,
+            tumchi partner in everything. 🫂💗 <br><br>
+
+            Tumchya sobat future imagine karte na…
+            te khup bhariiiii dista. ✨💍 <br><br>
+
+            Thank you for loving me so purely. kaym asch sobt raha he aaplyla success karayche 🥺
+            I’m so so lucky to call you MINE. 🫶💖 <br><br>
+
+            <span style="font-size:22px;font-weight:bold;">
+                I LOVE YOU SO MUCHHHHHH 💗💗💗
+            </span>
+        </div>
+
+        <div style="font-size:40px;margin-top:20px;">
+            💑🫂💖🌸💍✨💕
+        </div>
+    </div>
+
+    <script>
+
+        /* Running NO button */
+        function moveNo() {
+            let x = Math.random() * (window.innerWidth - 100);
+            let y = Math.random() * (window.innerHeight - 50);
+            document.getElementById("noBtn").style.left = x + "px";
+            document.getElementById("noBtn").style.top = y + "px";
+        }
+
+        /* Floating Hearts */
+        function createHeart() {
+            let heart = document.createElement("div");
+            heart.classList.add("heart");
+            heart.innerHTML = "💞";
+            heart.style.left = Math.random() * 100 + "vw";
+            document.body.appendChild(heart);
+            setTimeout(() => { heart.remove(); }, 6000);
+        }
+        setInterval(createHeart, 400);
+
+        /* Confetti */
+        function confetti() {
+            for (let i = 0; i < 40; i++) {
+                let conf = document.createElement("div");
+                conf.style.position = "fixed";
+                conf.style.width = "8px";
+                conf.style.height = "8px";
+                conf.style.top = "-10px";
+                conf.style.left = Math.random() * 100 + "vw";
+                conf.style.background = `hsl(${Math.random() * 360},100%,70%)`;
+                conf.style.animation = "fall 3s linear forwards";
+                document.body.appendChild(conf);
+                setTimeout(() => { conf.remove(); }, 3000);
+            }
+        }
+        document.head.insertAdjacentHTML("beforeend",
+            "<style>@keyframes fall{to{transform:translateY(100vh) rotate(720deg);}}</style>");
+
+        function startSurprise() {
+            document.getElementById("proposal").style.display = "none";
+            document.getElementById("mainContent").style.display = "block";
+            confetti();
+        }
+
+        function showCute() {
+            document.getElementById("mainContent").style.display = "none";
+            document.getElementById("cute").style.display = "block";
+        }
+
+        function showFinal() {
+            document.getElementById("cute").style.display = "none";
+            document.getElementById("final").style.display = "block";
+            confetti();
+        }
+
+    </script>
+
+</body>
+
+</html>
